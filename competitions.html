@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Compétitions de Golf</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>L'univers du Golf</h1>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="presentation.html">Présentation</a>
+            <a href="celebrites.html">Célébrités</a>
+            <a href="competitions.html">Compétitions</a>
+        </nav>
+
+    </header>
+
+    <main id="main4">
+        <section class="competitions">
+
+        <h1>Les Grandes Compétitions de Golf</h1>
+
+            <div class="cards">
+
+<!-- Card 1 -->
+            <div class="card">
+
+                 <h2 style="color: rgb(255, 251, 251);">The Masters</h2>
+                    <video controls width="100%">
+                        <source src="v1.mp4" type="video/mp4">
+                     </video>
+                    
+                <p>
+                    Le Masters est l’un des tournois les plus prestigieux du golf.
+                    Il rassemble les meilleurs joueurs du monde chaque année.
+                </p>
+
+            </div>
+
+
+         <div class="card">
+
+        <h2 style="color: rgb(253, 249, 249);">The Open Championship</h2>
+
+                    <video controls width="100%">
+                    <source src="v4.mp4" type="video/mp4">
+                    </video>
+
+                <p>
+                Le plus ancien tournoi de golf au monde joué au Royaume-Uni
+                sur des parcours appelés links.
+                </p>
+
+            </div>
+
+
+<!-- Card 3 -->
+            <div class="card">
+
+                <h2 style="color: rgb(255, 252, 252);">U.S. Open</h2>
+
+                <video controls width="100%">
+                <source src="v2.mp4" type="video/mp4">
+                </video>
+
+                    <p>
+                    L’un des tournois majeurs les plus difficiles du golf
+                    avec des parcours très exigeants.
+                    </p>
+
+                </div>
+
+                </div>
+
+</section>
+
+    
+
+        <div id="videoPopup" class="video-popup">
+
+            <span class="close" onclick="closeVideo()">✖</span>
+
+            <video id="videoFrame" controls>
+
+                <source src="v2.mp4" type="video/mp4">
+
+            </video>
+
+        </div>
+    </main>
+</body>
+</html>

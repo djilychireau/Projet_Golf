@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Présentation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>L'univers du Golf</h1>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="presentation.html">Présentation</a>
+            <a href="celebrites.html">Célébrités</a>
+            <a href="competitions.html">Compétitions</a>
+        </nav>
+
+    </header>
+    <main id="main2">
+        
+        <section class="presentation">
+
+            <h2>Présentation du Golf</h2>
+
+            <p>
+                Le golf est un sport de précision qui consiste à envoyer une balle dans un trou
+                à l'aide de clubs en effectuant le moins de coups possible.
+            </p>
+
+            <p>
+                Il se joue sur un terrain appelé parcours composé de plusieurs trous.
+                Chaque trou possède un départ, un fairway et un green.
+                Ce sport est reconnu pour son élégance, sa concentration et sa stratégie.
+            </p>
+        </section>
+
+        <section class="cards">
+
+            <div class="mini-card">
+                <img src="le regle de golf 3.jpg">
+
+                <h3>Les règles du Golf</h3>
+                <p>
+                Découvrir les règles principales du Golf
+                </p>
+                <button onclick="toggle('rules')">Dècouvrir</button>
+                <div id="rules" class="details">
+
+                    <div class="mini-card">
+                        <img src="trou 1.jpeg">
+
+                        <p>Le but est de mettre la balle dans le trou avec le moins de coups possible.</p>
+                    </div>
+
+                    <div class="mini-card">
+                        <img src="les joueurs.jpeg">
+
+                        <p>chaque joueur joue la balle depuis le point ou elle se trouve.</p>
+                    </div>
+
+                    <div class="mini-card">
+                        <img src="LE GOLFS.jpg">
+
+                        <p>Le respect et l'honnêteté sont essentiels dans ce sport.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="mini-card">
+
+                <img src="le golf 2.jpeg">
+
+                <h3>Les parcours</h3>
+
+                <p>Découvrez les parcours célèbres.</p>
+
+                <button onclick="toggle('parcours')">Découvrir</button>
+
+                <div id="parcours" class="details">
+
+                    <div class="mini-card">
+                        <img src="img.jpg">
+                        <p>Certains parcours sont très célèbres et accueillent de grandes compétitions.</p>
+                    </div>
+
+                    <div class="mini-card">
+                        <img src="parcours golfs.jpg">
+                        <p>Des parcours magnifiques existent dans le monde entier.</p>
+                    </div>
+
+                    <div class="mini-card">
+                        <img src="trump 2.jpeg">
+                        <p>Des personnalités comme Donald Trump
+                        possèdent aussi des terrains de golf prestigieux.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CARD 3 -->
+
+            <div class="mini-card">
+
+                <img src="img..jpeg">
+
+                <h3>Les clubs</h3>
+
+                <p>Découvrez les différents clubs utilisés.</p>
+
+                <button onclick="toggle('clubs')">Découvrir</button>
+
+                <div id="clubs" class="details">
+
+                    <div class="mini-card">
+                        <img src="le driver.jpg">
+                        <p>Le Driver est utilisé pour les longs coups.</p>
+                    </div>
+
+                    <div class="mini-card">
+                        <img src="le fer 1.jpg">
+                        <p>Les fers servent pour les coups intermédiaires.</p>
+                    </div>
+
+                    <div class="mini-card">
+                        <img src="le putter.jpg">
+                        <p>Le putter est utilisé pour jouer sur le green.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    
+    </main>
+
+
+    <script>
+
+        function toggle(id){
+
+            let element = document.getElementById(id);
+
+            if(element.style.display === "flex"){
+
+            element.style.display = "none";
+
+            }
+            else{
+
+            element.style.display = "flex";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
